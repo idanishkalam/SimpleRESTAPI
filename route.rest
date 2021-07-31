@@ -1,0 +1,14 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/61028dc61c2f2e220cabb51b
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"ram",
+    "subscribeToChannel":"weekend"
+}
